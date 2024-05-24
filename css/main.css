@@ -4,8 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+html, body{
+  @apply overflow-x-hidden
+}
+body{
+  @apply overflow-y-hidden
+}
 
 p {
   @apply text-2xl;
