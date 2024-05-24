@@ -1,55 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --font-mm: "Libre Baskerville", serif;
-    --color-font: #ffffff;
+
+
+
+p {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-[64px] font-bold text-black;
+}
+h3 {
+  @apply text-5xl font-bold text-black;
+}
+h4 {
+  @apply text-[32px] font-bold text-black;
+}
+h5 {
+  @apply text-2xl;
+}
+h6 {
+  @apply text-base;
+}
+section{
+  @apply px-5
+}
+.scroll-image-primary {
+  animation: scroll-horizontal 40s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(0%);
   }
-  /* body{
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    font-style: italic
-  } */
-  html {
-    overflow-x: hidden;
+  to {
+    transform: translateX(-50%);
   }
-  body {
-    font-family: "Schibsted Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    overflow: hidden;
-  }
-  main {
-    padding: 0 10px;
-  }
-  p {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-[64px] font-bold text-black;
-  }
-  h3 {
-    @apply text-5xl font-bold text-black;
-  }
-  h4 {
-    @apply text-[32px] font-bold text-black;
-  }
-  h5 {
-    @apply text-2xl;
-  }
-  h6 {
-    @apply text-base;
-  }
-  /*? project section style */
-  .project-head {
-    @apply max-w-[1020px] m-auto py-10;
-  }
-  .nature {
-    @apply max-w-[1170px] m-auto h-[550px] relative;
-  }
-  /* project section style */
 }

@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bureau</title>
-    <!-- css file link -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- font awosome cdn -->
+    <title>Bureau || by Uzzal YAfi</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="asset/image/favicon.webp" type="image/x-icon">
+    <!-- Fontawesome cdn link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -14,273 +15,332 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- AOS Anomation link -->
+    <!-- AOS Animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- favicon icon -->
-    <link
-      rel="shortcut icon"
-      href="asset/image/favicon.webp"
-      type="image/x-icon"
-    />
   </head>
-  <body class="font-">
-    <main class="snap-y">
-      <!--? Header section start -->
-      <header class="bg-transparent relative" snap-start>
-        <div class="mx-auto max-w-screen-xl px-6 sm:px-6 lg:px-8">
-          <div class="flex h-20 items-center justify-between">
-            <!-- logo -->
-            <div class="flex gap-1">
-              <h5 class="font-extrabold">
-                <sup class="italic font-medium text-base">the</sup> Bureau
+  <body class="font-schibsted">
+    <!-- Header Sections Starts  -->
+    <header class="font-grotesk py-4 relative z-10">
+      <div class="mx-auto sm:px-6 px-4">
+        <div class="flex h-16 items-center justify-between">
+          <!-- logo -->
+          <a href="#"
+            ><div class="flex gap-1">
+              <h5 class="font-extrabold text-2xl">
+                <span class="italic font-medium text-base font-lora">the</span>
+                Bureau
               </h5>
-              <div class="w-8 h-8 bg-black rounded-lg" aria-label="Logo"></div>
-            </div>
-
-            <!-- Hamburger menu for mobile -->
-            <div class="lg:hidden">
-              <button id="menu-toggle" class="text-[#000]">
-                <i class="fa-solid fa-bars text-2xl"></i>
-              </button>
-            </div>
-
-            <div class="hidden lg:flex lg:items-center lg:gap-12">
-              <!-- navigation -->
-              <nav aria-label="Global" class="hidden md:block">
-                <ul class="flex items-center gap-10 text-sm">
-                  <li>
-                    <a
-                      class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                      href="#testimonial"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                      href="#service"
-                    >
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                      href="#project"
-                    >
-                      Projects
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                      href="#blog"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                      href="#career"
-                    >
-                      Career
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <!-- button -->
-              <div class="flex items-center gap-4">
-                <div class="sm:flex sm:gap-4">
-                  <button
-                    class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-4 py-2 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-                    aria-label="Contracts"
+              <div
+                class="w-8 h-8 bg-black rounded-lg"
+                aria-label="Logo"
+              ></div></div
+          ></a>
+          <!-- Navigation -->
+          <div class="md:flex md:items-center md:gap-12">
+            <nav aria-label="Global" class="navigation hidden lg:block">
+              <ul class="flex items-center gap-10 text-sm">
+                <li>
+                  <a
+                    class="text-black transition hover:text-black/75 hover:underline duration-200 font-bold text-[16px]"
+                    href="#about"
                   >
-                    <span class="mr-2">Contracts</span>
-                    <i class="fa-regular fa-address-book"></i>
-                  </button>
-                  <button
-                    class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-4 py-2 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-                    aria-label="Get Template"
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-black transition hover:text-black/75 hover:underline duration-200 font-bold text-[16px]"
+                    href="#services"
                   >
-                    <span class="mr-2">Get Template</span>
-                    <i class="fa-regular fa-file"></i>
-                  </button>
+                    Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-black transition hover:text-black/75 hover:underline duration-200 font-bold text-[16px]"
+                    href="#projects"
+                  >
+                    Projects
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-black transition hover:text-black/75 hover:underline duration-200 font-bold text-[16px]"
+                    href="#blog"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-black transition hover:text-black/75 hover:underline duration-200 font-bold text-[16px]"
+                    href="#career"
+                  >
+                    Career
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <a
+                  class="rounded-full text-sm text-[16px] font-bold px-5 py-2.5 text-black shadow border-2 border-black hover:bg-black pl-7 duration-500 hover:text-white flex gap-3 items-center justify-center group"
+                  href="#contacts"
+                >
+                  Contacts
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-0 group-hover:size-6 duration-500"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z"
+                    />
+                  </svg>
+                </a>
+
+                <div class="hidden sm:flex">
+                  <a
+                    class="rounded-full text-sm text-[16px] font-bold px-5 py-2.5 text-white shadow border-2 border-black bg-black pl-7 hover:bg-white duration-500 hover:text-black flex gap-3 items-center justify-center group"
+                    href="#clint"
+                  >
+                    Get Started
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-0 group-hover:size-6 duration-500"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"
+                      />
+                    </svg>
+                  </a>
                 </div>
+              </div>
+
+              <div class="block md:hidden">
+                <button
+                  class="rounded bg-gray-100 p-2 text-black transition hover:text-gray-600/75"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </header>
+    <!-- Header Sections Ends  -->
 
-        <!-- Mobile menu -->
-        <nav id="mobile-menu" class="hidden lg:hidden">
-          <ul class="flex flex-col items-center gap-4 mt-4 text-sm">
-            <li>
-              <a
-                class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                href="#testimonial"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                href="#service"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                href="#project"
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                href="#blog"
-              >
-                Blog
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-[#000] font-bold text-base transition hover:text-gray-500/75"
-                href="#career"
-              >
-                Career
-              </a>
-            </li>
-          </ul>
-          <div class="flex flex-col items-center gap-4 mt-4">
+    <main>
+      <!-- Hero Section Starts -->
+      <section id="home" class="hero relative z-10"  data-aos="fade-up">
+        <div class="max-w-[1120px] mx-auto space-y-10 py-6 px-10">
+          <div class="flex flex-col items-start gap-8">
+            <!-- Badge  -->
             <button
-              class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-4 py-2 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-              aria-label="Contracts"
+              class="flex gap-1 border-2 border-black p-1 px-2 rounded-full font-semibold text-[14px] hover:bg-black duration-500 hover:text-white items-center"
             >
-              <span class="mr-2">Contracts</span>
-              <i class="fa-regular fa-address-book"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Palo Alto, CA
             </button>
-            <button
-              class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-4 py-2 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-              aria-label="Get Template"
-            >
-              <span class="mr-2">Get Template</span>
-              <i class="fa-regular fa-file"></i>
-            </button>
-          </div>
-        </nav>
-      </header>
+            <h1 class="text-5xl md:text-8xl font-bold">
+              We <span class="font-lora italic font-light">are a</span> Strategy
+              <br />
+              <span class="font-lora italic font-light">&</span> Design Studio
+            </h1>
+            <p class="text-2xl font-grotesk leading-8">
+              We are helping companies bring new products and services to
+              market.
+              <br />
+              Smart, collaborative, and fun.
+            </p>
+            <!-- Social icon -->
+            <div class="w-full flex justify-between flex-wrap gap-5">
+              <div class="text-2xl flex gap-4 mt-5">
+                <div
+                  class="h-8 w-8 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div
+                  class="h-8 w-8 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
+                >
+                  <i class="fa-brands fa-square-facebook"></i>
+                </div>
 
-      <!-- Header section end -->
+                <div
+                  class="h-8 w-8 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
 
-      <!--? Hero section start -->
-      <section
-        class="max-w-[1020px] mx-auto snap-start"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
-      >
-        <small
-          class="font-bold text-sm text-[#000] border-solid border-2 border-[#000] rounded-full px-3 py-1 hover:bg-[#000] hover:text-[#ffffff] transition inline-block mt-20 duration-500"
-          >★ Palo Alto, CA</small
-        >
-        <h1 class="text-8xl font-bold text-[#000] leading-[96px] my-7">
-          We <span class="font-normal italic">are a</span> Strategy <br /><span
-            class="font-normal italic"
-            >&</span
-          >
-          Design Studio
-        </h1>
-        <p>
-          We are helping companies bring new products and services to market.
-          Smart, collaborative, and fun.
-        </p>
-        <div class="flex justify-between mt-8">
-          <div class="text-2xl flex gap-4">
-            <div
-              class="h-12 w-12 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div
-              class="h-12 w-12 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
-            >
-              <i class="fa-brands fa-square-facebook"></i>
-            </div>
-
-            <div
-              class="h-12 w-12 bg-black text-white flex justify-center items-center rounded-full cursor-pointer"
-            >
-              <i class="fa-brands fa-twitter"></i>
+              <button>
+                <a
+                  class="rounded-full text-[20px] font-bold px-6 py-4 text-black shadow border-2 border-black hover:bg-black pl-7 duration-500 hover:text-white flex gap-3 items-center justify-center group"
+                  href="#"
+                >
+                  About us
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-0 group-hover:size-6 duration-500"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </a>
+              </button>
             </div>
           </div>
-
-          <button
-            class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-6 py-3 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-          >
-            <span class="mr-2">About us</span>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </button>
         </div>
       </section>
-      <!-- Hero section end -->
+      <!-- Hero Section Ends -->
 
-      <!--? slider Logos carousel -->
-      <section class="overflow-hidden mb-10 snap-start" data-aos="fade-up">
-        <div class="relative w-full glide-09">
-          <!-- Slides -->
-          <div data-glide-el="track">
-            <ul
-              class="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden py-12"
-            >
-              <li>
-                <img
-                  src="asset/image/slide1.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-              <li>
-                <img
-                  src="asset/image/slide2.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-              <li>
-                <img
-                  src="asset/image/slide3.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-              <li>
-                <img
-                  src="asset/image/slide4.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-              <li>
-                <img
-                  src="asset/image/slide5.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-              <li>
-                <img
-                  src="asset/image/slide1.webp"
-                  class="h-[390px] w-[390px] max-h-full m-auto object-cover"
-                />
-              </li>
-            </ul>
-          </div>
+      <!-- Hero Image Carousel  -->
+      <section
+        class="scroll-container relative overflow-hidden after:w-56 py-6 after:h-full after:bg-gradient-to-r after:from-white after:to-transparent after:absolute after:top-0 after:left-0 before:w-56 before:h-full before:bg-gradient-to-r before:from-transparent before:to-white before:absolute before:top-0 before:right-0 before:z-50" data-aos="fade-up"
+      >
+        <div class="scroll-image-primary flex gap-2">
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/SP5waqWZHe0vWOZk8pfUNrCA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/hXV2MY5r4IUMMrAnydSCD5IYBN8.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/SP5waqWZHe0vWOZk8pfUNrCA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/hXV2MY5r4IUMMrAnydSCD5IYBN8.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/hXV2MY5r4IUMMrAnydSCD5IYBN8.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/m28SB5UKZvZjDAfZgv6eCRbA.jpg?scale-down-to=512"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
+          <img
+            src="https://framerusercontent.com/images/zWjH1RjKy40mfuMBqWObEZ8GBM.jpg"
+            alt=""
+            class="h-[350px] w-[400px] flex-shrink-0 object-cover object-top"
+          />
         </div>
-
-        <div class="max-w-[1020px] mx-auto" data-aos="fade-up">
+      </section>
+      <!-- Hero Image Carousel End  -->
+      <!-- Our Clint section start -->
+      <section id="clint"  data-aos="fade-up">
+        <div class="max-w-[1020px] mx-auto py-8" data-aos="fade-up">
           <h6>Our Clients</h6>
           <div
-            class="text-4xl font-bold my-6 flex justify-between items-center flex-wrap"
+            class="text-4xl font-bold my-6 flex justify-between items-center flex-wrap gap-4"
           >
             <span class="select-none">facebook</span>
             <span class="select-none">Google</span>
@@ -293,18 +353,16 @@
           </div>
         </div>
       </section>
-      <!-- End Logos carousel -->
-
-      <hr class="max-w-[1020px] m-auto" />
-
-      <!--? Servic section start -->
+      <!-- Our Clint section End -->
+      <hr class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
+      <!-- Servic Section Start -->
       <section
-        id="service"
-        class="max-w-[1020px] m-auto my-14"
-        data-aos="fade-up snap-start"
+        id="services"
+        class="max-w-[1020px] m-auto py-14"
+        data-aos="fade-up"
       >
         <div>
-          <h5 class="italic">Services</h5>
+          <h5 class="font-lora font-medium italic">Services</h5>
           <h2>What we do</h2>
           <p>
             This way, we can cut out all the project management and focus just
@@ -312,163 +370,218 @@
           </p>
         </div>
 
-        <div class="my-12">
-          <ul class="list-none">
-            <!-- list 01 -->
-            <li
-              class="relative group my-12 hover:my-0 transition-all duration-1000"
-            >
-              <a href="#" class="flex items-center space-x-2">
-                <h3>Art & Culture</h3>
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-              <div
-                class="hidden opacity-0 group-hover:block group-hover:opacity-100 mt-2 transition-opacity duration-1000"
+        <div class="my-12 flex flex-col md:gap-8">
+          <!-- iten 01 -->
+          <div  data-aos="fade-up"
+            class="service flex justify-between items-center group duration-500 relative transition-all"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
               >
-                <div class="flex justify-between">
-                  <p>
-                    Connecting people through art, stories, food, and culture
-                  </p>
-                  <picture class="flex items-center mt-[-80px]">
-                    <img
-                      class="w-32 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list01.webp"
-                      alt="image"
-                    />
-                    <img
-                      class="w-20 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list02.webp"
-                      alt="image"
-                    />
-                  </picture>
-                </div>
-              </div>
-            </li>
-            <!-- list 02 -->
-            <li
-              class="relative group my-12 hover:my-0 transition-all duration-1000"
-            >
-              <a href="#" class="flex items-center space-x-2">
-                <h3>Consumer Tech</h3>
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-              <div
-                class="hidden opacity-0 group-hover:block group-hover:opacity-100 mt-2 transition-opacity duration-500"
+                Art & Culture
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="opacity-0 pt-4 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
               >
-                <div class="flex justify-between">
-                  <p>Making your everyday apps a little more delightful</p>
-                  <picture class="flex items-center mt-[-80px]">
-                    <img
-                      class="w-32 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list01.webp"
-                      alt="image"
-                    />
-                    <img
-                      class="w-20 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list02.webp"
-                      alt="image"
-                    />
-                  </picture>
-                </div>
+                Connecting people through art, stories, food, and culture
+              </p>
+            </div>
+            <div class="service-img flex">
+              <div class="hidden md:block">
+                <img
+                  src="asset/image/list01.webp"
+                  alt=""
+                  class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                />
+                <img
+                  class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                  src="asset/image/list02.webp"
+                  alt="image"
+                />
               </div>
-            </li>
-            <!-- list 03 -->
-            <li
-              class="relative group my-12 hover:my-0 transition-all duration-1000"
-            >
-              <a href="#" class="flex items-center space-x-2">
-                <h3>Fintech</h3>
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-              <div
-                class="hidden opacity-0 group-hover:block group-hover:opacity-100 mt-2 transition-opacity duration-500"
+            </div>
+          </div>
+          <!-- iten 02 -->
+          <div  data-aos="fade-up"
+            class="service flex justify-between items-center group duration-500 relative transition-all"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
               >
-                <div class="flex justify-between">
-                  <p>
-                    Connecting people through art, stories, food, and culture
-                  </p>
-                  <picture class="flex items-center mt-[-80px]">
-                    <img
-                      class="w-32 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list01.webp"
-                      alt="image"
-                    />
-                    <img
-                      class="w-20 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list02.webp"
-                      alt="image"
-                    />
-                  </picture>
-                </div>
-              </div>
-            </li>
-            <!-- list 04 -->
-            <li
-              class="relative group my-12 hover:my-0 transition-all duration-1000"
-            >
-              <a href="#" class="flex items-center space-x-2">
-                <h3>Media</h3>
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-              <div
-                class="hidden opacity-0 group-hover:block group-hover:opacity-100 mt-2 transition-opacity duration-500"
+                Consumer Tech
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="pt-4 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
               >
-                <div class="flex justify-between">
-                  <p>Delivering culture, news, and entertainment</p>
-                  <picture class="flex items-center mt-[-80px]">
-                    <img
-                      class="w-32 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list01.webp"
-                      alt="image"
-                    />
-                    <img
-                      class="w-20 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list02.webp"
-                      alt="image"
-                    />
-                  </picture>
-                </div>
+                Making your everyday apps a little more delightful
+              </p>
+            </div>
+            <div class="service-img flex">
+              <div class="hidden md:block">
+                <img
+                  src="asset/image/list01.webp"
+                  alt=""
+                  class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                />
+                <img
+                  class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                  src="asset/image/list02.webp"
+                  alt="image"
+                />
               </div>
-            </li>
-            <!-- list 05 -->
-            <li
-              class="relative group my-12 hover:my-0 transition-all duration-1000"
-            >
-              <a href="#" class="flex items-center space-x-2">
-                <h3>Startup</h3>
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-              <div
-                class="hidden opacity-0 group-hover:block group-hover:opacity-100 mt-2 transition-opacity duration-500"
+            </div>
+          </div>
+
+          <!-- item 03 -->
+          <div  data-aos="fade-up"
+            class="service flex justify-between items-center group duration-500 relative transition-all"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
               >
-                <div class="flex justify-between">
-                  <p>Helping founders dream big</p>
-                  <picture class="flex items-center mt-[-80px]">
-                    <img
-                      class="w-32 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list01.webp"
-                      alt="image"
-                    />
-                    <img
-                      class="w-20 origin-bottom -rotate-12 hidden md:block"
-                      src="asset/image/list02.webp"
-                      alt="image"
-                    />
-                  </picture>
-                </div>
+                Fintech
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="pt-4 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
+              >
+                Connecting people through art, stories, food, and culture
+              </p>
+            </div>
+            <div class="service-img flex">
+              <div class="hidden md:block">
+                <img
+                  src="asset/image/list01.webp"
+                  alt=""
+                  class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                />
+                <img
+                  class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                  src="asset/image/list02.webp"
+                  alt="image"
+                />
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <!-- item 04 -->
+          <div  data-aos="fade-up"
+            class="service flex justify-between items-center group duration-500 relative transition-all"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
+              >
+                Healthcare
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="pt-4 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
+              >
+                Connecting people through art, stories, food, and culture
+              </p>
+            </div>
+            <div class="service-img flex">
+              <div class="hidden md:block">
+                <img
+                  src="asset/image/list01.webp"
+                  alt=""
+                  class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                />
+                <img
+                  class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                  src="asset/image/list02.webp"
+                  alt="image"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- item 05 -->
+          <div  data-aos="fade-up"
+            class="service flex justify-between items-center group duration-500 relative transition-all"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
+              >
+                Media
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="pt-4 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
+              >
+                Delivering culture, news, and entertainment
+              </p>
+            </div>
+            <div class="service-img flex">
+              <div class="hidden md:block">
+                <img
+                  src="asset/image/list01.webp"
+                  alt=""
+                  class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                />
+                <img
+                  class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                  src="asset/image/list02.webp"
+                  alt="image"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- item 06 -->
+          <div
+            class="service flex justify-between items-center group duration-500 relative transition-all pb-8"
+          >
+            <div class="service-content">
+              <h3
+                class="translate-y-8 group-hover:translate-y-0 duration-500 cursor-pointer"
+              >
+                Startup
+                <span class="hidden group-hover:inline-block duration-500"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </h3>
+              <p
+                class="pt-4 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 duration-500"
+              >
+                Helping founders dream big
+              </p>
+            </div>
+            <div class="service-img flex">
+              <img
+                src="asset/image/list01.webp"
+                alt=""
+                class="w-32 absolute top-0 right-[72px] z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+              />
+              <img
+                class="w-20 absolute top-0 right-0 z-40 rotate-6 scale-0 group-hover:scale-100 duration-500 group-hover:-rotate-12"
+                src="asset/image/list02.webp"
+                alt="image"
+              />
+            </div>
+          </div>
         </div>
       </section>
-      <!-- Servic section end -->
-
-      <hr class="max-w-[1020px] m-auto" />
-
-      <!--? Project section start -->
-      <section id="project" data-aos="fade-up" class="snap-start">
-        <div class="project-head">
-          <h5>Projects</h5>
+      <!-- Servic Section End -->
+      <hr class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
+      <!-- ? Project Section Start -->
+      <section id="projects" data-aos="fade-up" class="snap-start">
+        <div class="project-head max-w-[1020px] m-auto py-9">
+          <h5 class="font-lora font-medium italic">Projects</h5>
           <h2>Selected works</h2>
           <p>
             Years of experience to create unique design in agile and fast manner
@@ -477,27 +590,29 @@
 
         <!-- project 01 -->
         <div class="max-w-[1170px] m-auto" data-aos="fade-up">
-          <div class="nature">
+          <div class="relative h-auto">
             <img
               src="asset/image/porect02.webp"
               alt="image"
-              class="h-full w-full object-cover"
+              class="h-[556px] w-full object-cover mb-4"
             />
             <i
               class="fa-solid fa-arrow-up-right-from-square absolute top-8 right-8 text-2xl cursor-pointer text-black"
             ></i>
           </div>
 
-          <div class="my-6">
+          <div  data-aos="fade-up">
             <h4 class="hover:underline transition duration-1000 inline-block">
               The Nature
             </h4>
-            <p>
+            <p class="text-[20px]">
               Pushing creative boundaries and technologies, you've come to the
               right place
             </p>
 
-            <div class="flex gap-3 mt-4">
+            <div
+              class="flex gap-3 mt-4 flex-wrap items-center justify-center sm:items-start sm:justify-start"
+            >
               <button
                 class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
               >
@@ -529,50 +644,50 @@
 
         <!-- project 02 03 -->
         <div
-          class="max-w-[1170px] m-auto flex justify-between gap-4"
+          class="max-w-[1170px] m-auto flex justify-between gap-4 flex-wrap md:flex-nowrap"
           data-aos="fade-up"
         >
           <!-- project 02 -->
           <div class="mt-8">
             <div class="relative">
               <img
-                src="asset/image/porect02.webp"
+                src="asset/image/zYsu0RmIoAFJEsDVG1LJnbHd2Kw.webp"
                 alt="image"
-                class="h-[320px] w-full object-cover"
+                class="h-[320px] w-full object-cover object-top"
               />
               <i
                 class="fa-solid fa-arrow-up-right-from-square absolute top-8 right-8 text-2xl cursor-pointer text-black"
               ></i>
             </div>
 
-            <div class="my-6">
+            <div class="my-6"  data-aos="fade-up">
               <h4 class="hover:underline transition duration-1000 inline-block">
-                The Nature
+                Countertouch
               </h4>
               <p>
-                Pushing creative boundaries and technologies, you've come to the
-                right place
+                Years of experience to create unique design in agile and fast
+                manner
               </p>
 
-              <div class="flex gap-3 mt-4">
+              <div class="flex gap-3 mt-4 justify-center sm:justify-start">
                 <button
                   class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
                 >
-                  3D Design
+                  Branding
                 </button>
                 <button
                   class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
                 >
-                  Marketing
+                  Design
                 </button>
               </div>
             </div>
           </div>
           <!-- project 03 -->
-          <div class="mt-8">
+          <div class="mt-8"  data-aos="fade-up">
             <div class="relative">
               <img
-                src="asset/image/porect02.webp"
+                src="asset/image/RZA4Z6XBaWvAk0auyovOFvHeO4.webp"
                 alt="image"
                 class="h-[320px] w-full object-cover"
               />
@@ -581,30 +696,30 @@
               ></i>
             </div>
 
-            <div class="my-6">
+            <div class="my-6"  data-aos="fade-up">
               <h4 class="hover:underline transition duration-1000 inline-block">
-                The Nature
+                Bizantine
               </h4>
               <p>
-                Pushing creative boundaries and technologies, you've come to the
-                right place
+                This way, we can cut out all the project management and focus
+                just on the design processes
               </p>
 
               <div class="flex gap-3 mt-4">
                 <button
                   class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
                 >
-                  3D Design
+                  Video & Web
                 </button>
                 <button
                   class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
                 >
-                  Marketing
+                  Strategy
                 </button>
                 <button
                   class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
                 >
-                  Marketing
+                  Design
                 </button>
               </div>
             </div>
@@ -621,18 +736,16 @@
           </div>
         </div>
       </section>
-      <!-- Project section end -->
-
-      <hr />
-
-      <!-- ? Tastimonial section start -->
+      <!--  Project Section End -->
+      <hr class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
+      <!--? Testimonials Section Start -->
       <section
-        id="testimonial"
-        class="max-w-[1170px] m-auto mt-14 snap-start"
+        id="about"
+        class="max-w-[1170px] m-auto pt-10 snap-start"
         data-aos="fade-up"
       >
         <div>
-          <div class="ml-20">
+          <div class="sm:ml-20">
             <h5 class="italic">Testimonials</h5>
             <h2>Clients about us</h2>
           </div>
@@ -650,8 +763,8 @@
                 >
                   <div class="relative p-6">
                     <figure class="relative z-10">
-                      <blockquote class="p-6 text-lg leading-relaxed">
-                        <h3>
+                      <blockquote class="p-6 leading-relaxed">
+                        <h3 class="text-4xl md:text-5xl">
                           “Genuinely, your great design has helped us in 100
                           places. Was one of the best investments we made.”
                         </h3>
@@ -684,8 +797,8 @@
                 >
                   <div class="relative p-6">
                     <figure class="relative z-10">
-                      <blockquote class="p-6 text-lg leading-relaxed">
-                        <h3>
+                      <blockquote class="p-6 leading-relaxed">
+                        <h3 class="text-4xl md:text-5xl">
                           “Working with The Bureau was an amazing experience. We
                           have built an amazing brand together and look forward
                           to working on more exciting projects with you all.”
@@ -719,8 +832,8 @@
                 >
                   <div class="relative p-6">
                     <figure class="relative z-10">
-                      <blockquote class="p-6 text-lg leading-relaxed">
-                        <h3>
+                      <blockquote class="p-6 leading-relaxed">
+                        <h3 class="text-4xl md:text-5xl">
                           “The Bureau impressive expertise and strategy advisory
                           were crucial to achieving our goals. The experience
                           was great in all dimensions.”
@@ -805,280 +918,282 @@
           <!-- End Slider with controls inside -->
         </div>
       </section>
-      <!-- Tastimonial section end -->
-
-      <hr />
-
+      <!-- Testimonials Section End -->
+      <hr  class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
       <!-- ? Career section start -->
-      <div class="max-w-[1100px] m-auto my-12 snap-start" data-aos="fade-up">
-        <div>
-          <div class="mb-6">
-            <h5 class="italic">Career</h5>
-            <h2>Join the team!</h2>
-            <p>
-              Pushing creative boundaries and technologies, you've come to the
-              right place.
-            </p>
-          </div>
-
+      <section id="career">
+        <div class="max-w-[1100px] m-auto py-12 snap-start" data-aos="fade-up">
           <div>
-            <div>
-              <!--  Basic accordion -->
-              <div class="w-full divide-y rounded divide-slate-200">
-                <details class="p-4 group" open>
-                  <summary
-                    class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
-                  >
-                    <h3>WebGL Developer ↓</h3>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      aria-labelledby="title-ac01 desc-ac01"
-                    >
-                      <title id="title-ac01">Open icon</title>
-                      <desc id="desc-ac01">
-                        icon that represents the state of the summary
-                      </desc>
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 4v16m8-8H4"
-                      />
-                    </svg>
-                  </summary>
-                  <div class="flex justify-between gap-3">
-                    <div class="lg:max-w-[70%]">
-                      <p class="mt-4 text-[20px] text-black">
-                        We are is looking for a Front-end developer with an
-                        in-depth knowledge of React.js and an affinity for the
-                        creative side of development. We are looking for someone
-                        who will be able to develop and maintain creative
-                        websites, contribute to internal projects and planning
-                        discussions, develop reusable code and libraries for
-                        future use, document code and collaborate with the UI/UX
-                        Designers, in order to improve the final product.
-                      </p>
-                      <ul class="text-[18px] list-disc list-inside mt-4">
-                        <li>
-                          Minimum 4 years experience in creative development
-                        </li>
-                        <li>Minimum 2 years experience with React.js</li>
-                        <li>
-                          Excellent knowledge of modern HTML, CSS, and
-                          Javascript (ES6)
-                        </li>
-                        <li>
-                          Good knowledge of animation libraries (ex: GSAP) &
-                          build tools (Node.js, Webpack)
-                        </li>
-                        <li>
-                          Basic knowledge of Git, and popular CMS platforms
-                        </li>
-                        <li>
-                          Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="hidden lg:block">
-                      <p>Job Status: Full time</p>
-                      <p>Experience: 4 years</p>
-                      <p>Location: Palo Alto, CA</p>
-
-                      <button
-                        class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-                      >
-                        Social Media
-                      </button>
-                    </div>
-                  </div>
-                </details>
-                <details class="p-4 group">
-                  <summary
-                    class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
-                  >
-                    <h3>Front-End Developer</h3>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      aria-labelledby="title-ac02 desc-ac02"
-                    >
-                      <title id="title-ac02">Open icon</title>
-                      <desc id="desc-ac02">
-                        icon that represents the state of the summary
-                      </desc>
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 4v16m8-8H4"
-                      />
-                    </svg>
-                  </summary>
-                  <div class="flex justify-between gap-3">
-                    <div class="lg:max-w-[70%]">
-                      <p class="mt-4 text-[20px] text-black">
-                        We are is looking for a Front-end developer with an
-                        in-depth knowledge of React.js and an affinity for the
-                        creative side of development. We are looking for someone
-                        who will be able to develop and maintain creative
-                        websites, contribute to internal projects and planning
-                        discussions, develop reusable code and libraries for
-                        future use, document code and collaborate with the UI/UX
-                        Designers, in order to improve the final product.
-                      </p>
-                      <ul class="text-[18px] list-disc list-inside mt-4">
-                        <li>
-                          Minimum 4 years experience in creative development
-                        </li>
-                        <li>Minimum 2 years experience with React.js</li>
-                        <li>
-                          Excellent knowledge of modern HTML, CSS, and
-                          Javascript (ES6)
-                        </li>
-                        <li>
-                          Good knowledge of animation libraries (ex: GSAP) &
-                          build tools (Node.js, Webpack)
-                        </li>
-                        <li>
-                          Basic knowledge of Git, and popular CMS platforms
-                        </li>
-                        <li>
-                          Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="hidden lg:block">
-                      <p>Job Status: Full time</p>
-                      <p>Experience: 4 years</p>
-                      <p>Location: Palo Alto, CA</p>
-
-                      <button
-                        class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-                      >
-                        Social Media
-                      </button>
-                    </div>
-                  </div>
-                </details>
-                <details class="p-4 group">
-                  <summary
-                    class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
-                  >
-                    <h3>UI/UX Designer</h3>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      aria-labelledby="title-ac03 desc-ac03"
-                    >
-                      <title id="title-ac03">Open icon</title>
-                      <desc id="desc-ac03">
-                        icon that represents the state of the summary
-                      </desc>
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 4v16m8-8H4"
-                      />
-                    </svg>
-                  </summary>
-                  <div class="flex justify-between gap-3">
-                    <div class="lg:max-w-[70%]">
-                      <p class="mt-4 text-[20px] text-black">
-                        We are is looking for a Front-end developer with an
-                        in-depth knowledge of React.js and an affinity for the
-                        creative side of development. We are looking for someone
-                        who will be able to develop and maintain creative
-                        websites, contribute to internal projects and planning
-                        discussions, develop reusable code and libraries for
-                        future use, document code and collaborate with the UI/UX
-                        Designers, in order to improve the final product.
-                      </p>
-                      <ul class="text-[18px] list-disc list-inside mt-4">
-                        <li>
-                          Minimum 4 years experience in creative development
-                        </li>
-                        <li>Minimum 2 years experience with React.js</li>
-                        <li>
-                          Excellent knowledge of modern HTML, CSS, and
-                          Javascript (ES6)
-                        </li>
-                        <li>
-                          Good knowledge of animation libraries (ex: GSAP) &
-                          build tools (Node.js, Webpack)
-                        </li>
-                        <li>
-                          Basic knowledge of Git, and popular CMS platforms
-                        </li>
-                        <li>
-                          Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="hidden lg:block">
-                      <p>Job Status: Full time</p>
-                      <p>Experience: 4 years</p>
-                      <p>Location: Palo Alto, CA</p>
-
-                      <button
-                        class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
-                      >
-                        Social Media
-                      </button>
-                    </div>
-                  </div>
-                </details>
-              </div>
-              <!-- End Basic accordion -->
+            <div class="mb-6">
+              <h5 class="font-lora font-medium italic">Career</h5>
+              <h2>Join the team!</h2>
+              <p>
+                Pushing creative boundaries and technologies, you've come to the
+                right place.
+              </p>
             </div>
 
-            <div class="text-gray-600 body-font" data-aos="zoom-in">
-              <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap -m-4 text-center">
-                  <div class="p-4 sm:w-1/4 w-1/2">
-                    <h2>6</h2>
-                    <p class="leading-relaxed">years</p>
-                  </div>
-                  <div class="p-4 sm:w-1/4 w-1/2">
-                    <h2>85</h2>
-                    <p class="leading-relaxed">clients</p>
-                  </div>
-                  <div class="p-4 sm:w-1/4 w-1/2">
-                    <h2>359</h2>
-                    <p class="leading-relaxed">projects</p>
-                  </div>
-                  <div class="p-4 sm:w-1/4 w-1/2">
-                    <h2>4</h2>
-                    <p class="leading-relaxed">awards</p>
+            <div>
+              <div>
+                <!--  Basic accordion -->
+                <div class="w-full divide-y rounded divide-slate-200"  data-aos="fade-up">
+                  <details class="p-4 group" open>
+                    <summary
+                      class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
+                    >
+                      <h3>WebGL Developer</h3>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        aria-labelledby="title-ac01 desc-ac01"
+                      >
+                        <title id="title-ac01">Open icon</title>
+                        <desc id="desc-ac01">
+                          icon that represents the state of the summary
+                        </desc>
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 4v16m8-8H4"
+                        />
+                      </svg>
+                    </summary>
+                    <div class="flex justify-between gap-3">
+                      <div class="lg:max-w-[70%]">
+                        <p class="mt-4 text-[20px] text-black">
+                          We are is looking for a Front-end developer with an
+                          in-depth knowledge of React.js and an affinity for the
+                          creative side of development. We are looking for
+                          someone who will be able to develop and maintain
+                          creative websites, contribute to internal projects and
+                          planning discussions, develop reusable code and
+                          libraries for future use, document code and
+                          collaborate with the UI/UX Designers, in order to
+                          improve the final product.
+                        </p>
+                        <ul class="text-[18px] list-disc list-inside mt-4">
+                          <li>
+                            Minimum 4 years experience in creative development
+                          </li>
+                          <li>Minimum 2 years experience with React.js</li>
+                          <li>
+                            Excellent knowledge of modern HTML, CSS, and
+                            Javascript (ES6)
+                          </li>
+                          <li>
+                            Good knowledge of animation libraries (ex: GSAP) &
+                            build tools (Node.js, Webpack)
+                          </li>
+                          <li>
+                            Basic knowledge of Git, and popular CMS platforms
+                          </li>
+                          <li>
+                            Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="hidden lg:block">
+                        <p>Job Status: Full time</p>
+                        <p class="py-1">Experience: 4 years</p>
+                        <p>Location: Palo Alto, CA</p>
+
+                        <button
+                          class="text-white bg-black text-[20px] mt-6 font-bold border-solid border-2 border-[#000] px-6 py-3 rounded-full hover:bg-white hover:text-black transition duration-500"
+                        >
+                          Apply Now
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                  <details class="p-4 group">
+                    <summary
+                      class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
+                    >
+                      <h3>Front-End Developer</h3>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        aria-labelledby="title-ac02 desc-ac02"
+                      >
+                        <title id="title-ac02">Open icon</title>
+                        <desc id="desc-ac02">
+                          icon that represents the state of the summary
+                        </desc>
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 4v16m8-8H4"
+                        />
+                      </svg>
+                    </summary>
+                    <div class="flex justify-between gap-3">
+                      <div class="lg:max-w-[70%]">
+                        <p class="mt-4 text-[20px] text-black">
+                          We are is looking for a Front-end developer with an
+                          in-depth knowledge of React.js and an affinity for the
+                          creative side of development. We are looking for
+                          someone who will be able to develop and maintain
+                          creative websites, contribute to internal projects and
+                          planning discussions, develop reusable code and
+                          libraries for future use, document code and
+                          collaborate with the UI/UX Designers, in order to
+                          improve the final product.
+                        </p>
+                        <ul class="text-[18px] list-disc list-inside mt-4">
+                          <li>
+                            Minimum 4 years experience in creative development
+                          </li>
+                          <li>Minimum 2 years experience with React.js</li>
+                          <li>
+                            Excellent knowledge of modern HTML, CSS, and
+                            Javascript (ES6)
+                          </li>
+                          <li>
+                            Good knowledge of animation libraries (ex: GSAP) &
+                            build tools (Node.js, Webpack)
+                          </li>
+                          <li>
+                            Basic knowledge of Git, and popular CMS platforms
+                          </li>
+                          <li>
+                            Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="hidden lg:block">
+                        <p>Job Status: Full time</p>
+                        <p>Experience: 4 years</p>
+                        <p>Location: Palo Alto, CA</p>
+
+                        <button
+                          class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
+                        >
+                          Social Media
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                  <details class="p-4 group">
+                    <summary
+                      class="[&::-webkit-details-marker]:hidden relative pr-8 font-medium list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900"
+                    >
+                      <h3>UI/UX Designer</h3>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute right-0 w-4 h-4 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        aria-labelledby="title-ac03 desc-ac03"
+                      >
+                        <title id="title-ac03">Open icon</title>
+                        <desc id="desc-ac03">
+                          icon that represents the state of the summary
+                        </desc>
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 4v16m8-8H4"
+                        />
+                      </svg>
+                    </summary>
+                    <div class="flex justify-between gap-3">
+                      <div class="lg:max-w-[70%]">
+                        <p class="mt-4 text-[20px] text-black">
+                          We are is looking for a Front-end developer with an
+                          in-depth knowledge of React.js and an affinity for the
+                          creative side of development. We are looking for
+                          someone who will be able to develop and maintain
+                          creative websites, contribute to internal projects and
+                          planning discussions, develop reusable code and
+                          libraries for future use, document code and
+                          collaborate with the UI/UX Designers, in order to
+                          improve the final product.
+                        </p>
+                        <ul class="text-[18px] list-disc list-inside mt-4">
+                          <li>
+                            Minimum 4 years experience in creative development
+                          </li>
+                          <li>Minimum 2 years experience with React.js</li>
+                          <li>
+                            Excellent knowledge of modern HTML, CSS, and
+                            Javascript (ES6)
+                          </li>
+                          <li>
+                            Good knowledge of animation libraries (ex: GSAP) &
+                            build tools (Node.js, Webpack)
+                          </li>
+                          <li>
+                            Basic knowledge of Git, and popular CMS platforms
+                          </li>
+                          <li>
+                            Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="hidden lg:block">
+                        <p>Job Status: Full time</p>
+                        <p>Experience: 4 years</p>
+                        <p>Location: Palo Alto, CA</p>
+
+                        <button
+                          class="text-[#000] text-base font-bold border-solid border-2 border-[#000] px-2 py-1 rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500"
+                        >
+                          Social Media
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <!-- End Basic accordion -->
+              </div>
+
+              <div class="text-gray-600 body-font" data-aos="zoom-in">
+                <div class="container px-5 py-20 mx-auto">
+                  <div class="flex flex-wrap -m-4 text-center">
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                      <h2>6</h2>
+                      <p class="leading-relaxed">years</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                      <h2>85</h2>
+                      <p class="leading-relaxed">clients</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                      <h2>359</h2>
+                      <p class="leading-relaxed">projects</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                      <h2>4</h2>
+                      <p class="leading-relaxed">awards</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Career section end -->
 
-      <hr />
-
-      <!--? Blog section start -->
+      <hr data-aos="zoom-in" class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
+      <!--! Blog section start -->
       <section
         id="blog"
         class="max-w-[1170px] m-auto py-14 v"
         data-aos="fade-up"
       >
         <div class="ml-24">
-          <h5 class="italic">Blog</h5>
+          <h5 class="font-lora font-medium italic">Blog</h5>
           <h2>Latest articles</h2>
         </div>
 
@@ -1162,7 +1277,7 @@
           </div>
         </div>
 
-        <div class="mt-8 my-14" data-aos="zoom-in">
+        <div class="mt-8 my-2" data-aos="zoom-in">
           <div class="max-w-[1170px] w-full px-4 m-auto">
             <button
               class="text-[#000] text-lg font-bold border-solid border-2 border-[#000] rounded-full hover:bg-[#000] hover:text-[#ffffff] transition duration-500 w-full py-4"
@@ -1174,164 +1289,145 @@
       </section>
       <!-- Blog section end -->
 
-      <hr />
+      <hr class="max-w-[1170px] m-auto h-[2px] bg-black border-none" />
 
-      <!--? Career section start -->
+      <!--! Contacts section start -->
       <section
-        id="career"
+        id="contacts"
         class="max-w-[1100px] m-auto py-14 snap-start"
         data-aos="fade-up"
       >
         <div>
-          <h5 class="italic">Contacts</h5>
+          <h5 class="font-lora font-medium italic">Contacts</h5>
           <h2>Work with us</h2>
           <p>
             We are eager to learn about your organization and to help you
             achieve a well-defined out-of-the-box visual strategy.
           </p>
         </div>
-        <div class="py-14">
+        <div class="py-12">
           <h5>You can contact us at:</h5>
           <h3 class="py-4">info@pixsellz.io</h3>
 
           <button
-            class="text-white bg-black text-base font-bold border-solid border-2 border-[#000] px-5 py-3 rounded-full hover:bg-[#171616c5] hover:text-[#ffffff] transition duration-500"
+            class="text-white bg-black text-[20px] font-bold border-solid border-2 border-[#000] px-5 py-3 rounded-full hover:bg-white hover:text-black transition duration-500"
           >
             <span class="mr-2">Get in touch</span>
           </button>
         </div>
 
-        <div>
-          <div class="container mx-auto px-4" data-aos="fade-up">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div>
-                <h5 class="pb-3">Based in</h5>
-                <h4>★ Palo Alto, CA</h4>
-                <p class="py-2">250 Hamilton Avenue Palo Alto, CA 94301</p>
-                <p>250 Hamilton Avenue Palo Alto, CA 94301</p>
-              </div>
-              <div>
-                <h5 class="pb-3">Our socials</h5>
-                <h4>Instagram</h4>
-                <h4>Dribbble</h4>
-                <h4>Twitter</h4>
-              </div>
-              <div class="flex gap-1">
-                <h5 class="font-extrabold">
-                  <span class="italic font-normal text-sm">the</span> Bureau
-                </h5>
-                <div class="w-8 h-8 bg-black rounded-lg"></div>
-              </div>
-            </div>
+        <div
+          class="grid grid-cols-2 gap-10 md:grid-cols-3 justify-items-center mx-auto px-4"
+          data-aos="fade-up"
+        >
+          <div>
+            <h5 class="pb-3">Based in</h5>
+            <h4>★ Palo Alto, CA</h4>
+            <p class="py-2">250 Hamilton Avenue Palo Alto, CA 94301</p>
+            <p>250 Hamilton Avenue Palo Alto, CA 94301</p>
           </div>
+          <div>
+            <h5 class="pb-3">Our socials</h5>
+            <h4>Instagram</h4>
+            <h4>Dribbble</h4>
+            <h4>Twitter</h4>
+          </div>
+          <a href="#" class="inline-block"
+            ><div class="flex gap-1">
+              <h5 class="font-extrabold">
+                <span class="font-lora italic font-semibold text-sm">the</span>
+                Bureau
+              </h5>
+              <div class="w-8 h-8 bg-black rounded-lg"></div></div
+          ></a>
         </div>
       </section>
       <!-- Contacts section end -->
+      <hr />
+      <!--? footer style start -->
+      <footer
+        class="flex items-center justify-between text-base max-w-[1200px] m-auto lg:h-20 py-8 px-2 flex-wrap"
+      >
+        <div>
+          <p class="text-base">© 2018 / 2023 Pixsellz – Design Goodies Team</p>
+        </div>
+        <div class="flex gap-6 flex-wrap pt-6 lg:pt-0">
+          <a href="#" class="hover:underline">Privacy Policy</a>
+          <a href="#" class="hover:underline">Cookie Policy</a>
+          <a href="#" class="hover:underline flex"
+            >Farmer
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 h-4 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </a>
+          <a href="#" class="flex hover:underline"
+            >Get Template
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 h-4 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </a>
+        </div>
+      </footer>
+      <!-- footer style end -->
     </main>
-    <hr />
-    <!-- footer style start -->
-    <footer
-      class="flex items-center justify-between text-base max-w-[1200px] m-auto lg:h-20 py-8 px-2 flex-wrap"
-    >
-      <div>
-        <p class="text-base">© 2018 / 2023 Pixsellz – Design Goodies Team</p>
-      </div>
-      <div class="flex gap-6 flex-wrap pt-6 lg:pt-0">
-        <a href="#" class="hover:underline">Privacy Policy</a>
-        <a href="#" class="hover:underline">Cookie Policy</a>
-        <a href="#" class="hover:underline flex"
-          >Farmer
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-4 h-4 mt-1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-            />
-          </svg>
-        </a>
-        <a href="#" class="flex hover:underline"
-          >Get Template
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-4 h-4 mt-1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-            />
-          </svg>
-        </a>
-      </div>
-    </footer>
-    <!-- footer style end -->
-
-    <!-- ! SCRIPT -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-
-    <script>
-      var glide01 = new Glide(".glide-01", {
-        type: "slider",
-        focusAt: "center",
-        perView: 1,
-        autoplay: 3000,
-        animationDuration: 700,
-        gap: 0,
-        classes: {
-          activeNav: "[&>*]:bg-slate-700",
-        },
-      });
-
-      glide01.mount();
-
-      // Toggle mobile menu
-      document
-        .getElementById("menu-toggle")
-        .addEventListener("click", function () {
-          var mobileMenu = document.getElementById("mobile-menu");
-          if (mobileMenu.classList.contains("hidden")) {
-            mobileMenu.classList.remove("hidden");
-          } else {
-            mobileMenu.classList.add("hidden");
-          }
-        });
-      // #####
-      var glide09 = new Glide(".glide-09", {
-        type: "carousel",
-        autoplay: 1,
-        animationDuration: 9500,
-        animationTimingFunc: "linear",
-        perView: 3,
-        classes: {
-          activeNav: "[&>*]:bg-slate-700",
-        },
-        breakpoints: {
-          1024: {
-            perView: 2,
-          },
-          640: {
-            perView: 1,
-            gap: 36,
-          },
-        },
-      });
-
-      glide09.mount();
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
+
+  <!-- ! SCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+
+  <script>
+    var glide01 = new Glide(".glide-01", {
+      type: "slider",
+      focusAt: "center",
+      perView: 1,
+      autoplay: 3000,
+      animationDuration: 700,
+      gap: 0,
+      classes: {
+        activeNav: "[&>*]:bg-slate-700",
+      },
+    });
+
+    glide01.mount();
+
+    // // Toggle mobile menu
+    // document
+    //   .getElementById("menu-toggle")
+    //   .addEventListener("click", function () {
+    //     var mobileMenu = document.getElementById("mobile-menu");
+    //     if (mobileMenu.classList.contains("hidden")) {
+    //       mobileMenu.classList.remove("hidden");
+    //     } else {
+    //       mobileMenu.classList.add("hidden");
+    //     }
+    //   });
+    
+  
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

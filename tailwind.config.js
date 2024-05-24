@@ -2,8 +2,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "lora":['"Lora", serif'],
+        "schibsted":['"Schibsted Grotesk"'],
+      }
+    },
   },
   plugins: [],
 }
-
